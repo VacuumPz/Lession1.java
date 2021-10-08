@@ -1,3 +1,9 @@
+/**
+ * Java 1. Homework 2
+ *
+ * @author Gleb
+ * @version 9.10.2021
+ */
 class Lession2 {
     public static void main(String[] args) {
         sumReturn(5, 10);
@@ -27,6 +33,7 @@ class Lession2 {
             System.out.println(a);
         }
     }
+	
     static boolean year(int a) {
         if ((a % 4 == 0 && a % 100 != 0) || a % 400 == 0) return true;
         else return false;
